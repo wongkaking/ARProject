@@ -95,6 +95,7 @@
      <Compile Include="Assets\RhythmController.cs" />
      <Compile Include="Assets\Script\AboutButton.cs" />
      <Compile Include="Assets\Script\AccelorometerController.cs" />
+     <Compile Include="Assets\Script\AsyncLoadScene.cs" />
      <Compile Include="Assets\Script\BackButton.cs" />
      <Compile Include="Assets\Script\Invisiblebutton.cs" />
      <Compile Include="Assets\Script\PlayAni.cs" />
@@ -173,7 +174,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>/Users/wongkaching/Desktop/ARProject/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>/Users/wongkaching/Documents/GitHub/ARProject/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

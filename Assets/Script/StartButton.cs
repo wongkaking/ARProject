@@ -6,14 +6,19 @@ using UnityEngine.SceneManagement;
 
 public class StartButton : MonoBehaviour {
 
-	public Button startBtn;
+	public Button startButton;
+	public string LoadSceneName;
+	public string targetSceneName;
 	// Use this for initialization
 	void Start () {
-		Button btn = startBtn.GetComponent<Button> ();
+		Button btn = startButton.GetComponent<Button> ();
 		btn.onClick.AddListener (OnClickStart);
 	}
 
 	void OnClickStart() {
-		SceneManager.LoadScene ("ARScene");
+		Globe.nextSceneName = targetSceneName;
+		SceneManager.LoadScene (LoadSceneName);
+//		SceneManager.LoadScene ("ARScene");
+
 	}
 }
