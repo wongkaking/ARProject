@@ -19,6 +19,5 @@ public class StartButton : MonoBehaviour {
 		Globe.nextSceneName = targetSceneName;
 		SceneManager.LoadScene (LoadSceneName);
 //		SceneManager.LoadScene ("ARScene");
-
 	}
 }
