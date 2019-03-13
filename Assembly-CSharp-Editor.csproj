@@ -51,9 +51,12 @@
      <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\Unzipper\SharpZipLibUnzipper.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\VuforiaConfigurationEditor.cs" />
+     <None Include="Assets\Packages\Avatar_01\Shaders\toon_cutoff.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\Little Pack 1\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\GO Map - 3D Map For AR Gaming\GOShared\Helpers\Poly2Mesh\Poly2Tri\LICENSE.txt" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
@@ -61,12 +64,28 @@
      <None Include="Assets\LeanTouch\Examples\Shaders\Skybox.shader" />
      <None Include="Assets\LeanTouch\Examples\Shaders\Smooth.shader" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\Little Pack 1\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Marauder&apos;s Map\POIs\Stops\TransparentShadows.shader" />
      <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Shaders\UnlitSingleColor.shader" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Marauder&apos;s Map\POIs\Gyms\Resources\FakeVolumetricLightShader.shader" />
+     <None Include="Assets\GO Map - 3D Map For AR Gaming\Core\Materials &amp; Shaders\GradientShader.shader" />
+     <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Shaders\InsideShader.shader" />
+     <None Include="Assets\GO Map - 3D Map For AR Gaming\Core\Materials &amp; Shaders\LowPoly Procedural Skybox.shader" />
+     <None Include="Assets\GO Map - 3D Map For AR Gaming\GOShared\Helpers\Poly2Mesh\Poly2Tri\AUTHORS.txt" />
+     <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Shaders\TransparentShader.shader" />
+     <None Include="Assets\Packages\Avatar_01\Shaders\toon_hair.shader" />
+     <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Projectors\ProjectorAdditive.shader" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\GO Map - 3D Map For AR Gaming\Core\Materials &amp; Shaders\LowPolyMobile3.2.shader" />
+     <None Include="Assets\GO Map - 3D Map For AR Gaming\GOShared\Shaders\GOOneSidedText.shader" />
+     <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Marauder&apos;s Map\POIs\Gyms\Resources\classicNoise3d.cginc" />
+     <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Projectors\ProjectorSolid.shader" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+     <None Include="Assets\GO Map - 3D Map For AR Gaming\Core\Materials &amp; Shaders\LowPolyMobile3.2 Water And Trasparency.shader" />
  <Reference Include="Assembly-UnityScript-Editor-firstpass">
  <HintPath>/Users/wongkaching/Documents/GitHub/ARProject/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
  </Reference>
