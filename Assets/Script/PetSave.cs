@@ -14,7 +14,7 @@ public class PetSave {
 	}
 
 	public int PetIndex {
-		get { return PetIndex; }
+		get { return petIndex; }
 		set { petIndex = value; }
 	}
 
