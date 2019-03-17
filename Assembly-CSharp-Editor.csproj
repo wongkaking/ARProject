@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Easy Save 2\Editor\InstallES3Beta.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ComponentFactoryStarter\ComponentFactoryStarter.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ExtensionImport.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
@@ -53,18 +54,19 @@
      <Compile Include="Assets\Vuforia\Editor\Scripts\VuforiaConfigurationEditor.cs" />
      <None Include="Assets\Packages\Avatar_01\Shaders\toon_cutoff.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\Little Pack 1\Shaders\Toony-Basic.shader" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\GOShared\Helpers\Poly2Mesh\Poly2Tri\LICENSE.txt" />
-     <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ClassTypeTemplate.txt" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\Easy Save 2\changelog.txt" />
      <None Include="Assets\readme_SDK.txt" />
-     <None Include="Assets\LeanTouch\Examples\Shaders\Skybox.shader" />
-     <None Include="Assets\LeanTouch\Examples\Shaders\Smooth.shader" />
+     <None Include="Assets\Plugins\Easy Save 3\link.xml" />
+     <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ComponentTypeTemplate.txt" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
      <None Include="Assets\Little Pack 1\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Easy Save 2\readme.txt" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Marauder&apos;s Map\POIs\Stops\TransparentShadows.shader" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Shaders\UnlitSingleColor.shader" />
@@ -72,15 +74,19 @@
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Marauder&apos;s Map\POIs\Gyms\Resources\FakeVolumetricLightShader.shader" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Core\Materials &amp; Shaders\GradientShader.shader" />
+     <None Include="Assets\Plugins\Easy Save 3\Editor\ES3Type_MaterialTemplate.txt" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Shaders\InsideShader.shader" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Core\Materials &amp; Shaders\LowPoly Procedural Skybox.shader" />
+     <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ValueTypeTemplate.txt" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\GOShared\Helpers\Poly2Mesh\Poly2Tri\AUTHORS.txt" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Shaders\TransparentShader.shader" />
+     <None Include="Assets\link.xml" />
      <None Include="Assets\Packages\Avatar_01\Shaders\toon_hair.shader" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Projectors\ProjectorAdditive.shader" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Core\Materials &amp; Shaders\LowPolyMobile3.2.shader" />
+     <None Include="Assets\Plugins\Easy Save 3\Editor\ES3TypeTemplate.txt" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\GOShared\Shaders\GOOneSidedText.shader" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Marauder&apos;s Map\POIs\Gyms\Resources\classicNoise3d.cginc" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Projectors\ProjectorSolid.shader" />
@@ -163,8 +169,12 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{BCBA1454-4D4E-9456-79F8-CD5CB8546081}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{6F3B1A3C-2B4E-0C02-BD08-AEF49C45C39A}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{4EBCD471-3163-94FC-1861-68A2618FD03B}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

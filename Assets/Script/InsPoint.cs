@@ -13,7 +13,7 @@ public class InsPoint : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		InvokeRepeating ("InsPointFunction", 3f, 10f);
 	}
 	
 	// Update is called once per frame

@@ -25,6 +25,7 @@ public class UIManager_02 : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Tx_Ball.text = StaticData.BallNum.ToString ();
+		Tx_Food.text = StaticData.FoodNum.ToString ();
 	}
 
 	// Update is called once per frame
@@ -47,15 +48,27 @@ public class UIManager_02 : MonoBehaviour {
 	public void AddFoodNum() {
 //		int _num = Int32.Parse (Tx_Food.text);
 //		_num += 1;
-		foodNumber++;
-		Tx_Food.text = foodNumber.ToString ();
+		StaticData.FoodNum++;
+		Tx_Food.text = StaticData.FoodNum.ToString ();
 	}
 
 	public void SetIm_Catch(bool isActive) {
+//		MapAudio.Instance.ButtonAudio ();
 		Im_Catch.SetActive (isActive);
 	}
 
 	public void GoARCatch() {
+		MapAudio.Instance.ButtonAudio ();
+		StaticData.FoodNum--;
 		SceneManager.LoadScene ("ARCatch");
+	}
+
+	public void GoStore() {
+		MapAudio.Instance.ButtonAudio ();
+		SceneManager.LoadScene ("StoreScene");
+	}
+
+	public void UpdateUIFoodNum() {
+		Tx_Food.text = StaticData.FoodNum.ToString ();
 	}
 }

@@ -53,6 +53,22 @@
      <Compile Include="Assets\Dash.cs" />
      <Compile Include="Assets\DashCollision.cs" />
      <Compile Include="Assets\DashSpinWithTouch.cs" />
+     <Compile Include="Assets\Easy Save 2\ES2Init.cs" />
+     <Compile Include="Assets\Easy Save 2\Examples\Creating an Automatic Save Structure\ES2UniqueID.cs" />
+     <Compile Include="Assets\Easy Save 2\Examples\Creating an Automatic Save Structure\UniqueGameLogic.cs" />
+     <Compile Include="Assets\Easy Save 2\Examples\Creating an Automatic Save Structure\UniqueObjectManager.cs" />
+     <Compile Include="Assets\Easy Save 2\Examples\Creating an Automatic Save Structure\UniqueSaveManager.cs" />
+     <Compile Include="Assets\Easy Save 2\Examples\Save and Load Prefabs Instantiated at Runtime\PrefabManager.cs" />
+     <Compile Include="Assets\Easy Save 2\Examples\Shared Assets\Scripts\MyExampleScript.cs" />
+     <Compile Include="Assets\Easy Save 2\Examples\Upload and Download a Texture\UploadDownloadTexture.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2UserType_UnityEngineCanvasRenderer.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2UserType_UnityEngineLineRenderer.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2UserType_UnityEngineRectTransform.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2UserType_UnityEngineUIText.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2_AudioClip.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2_GameObject.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2_RawTexture2D.cs" />
+     <Compile Include="Assets\Easy Save 2\Types\ES2_Sprite.cs" />
      <Compile Include="Assets\ExtraGameLogic.cs" />
      <Compile Include="Assets\GO Map - 3D Map For AR Gaming\Core\Map Builders\Attributes.cs" />
      <Compile Include="Assets\GO Map - 3D Map For AR Gaming\Core\Map Builders\GOCombineFeatures.cs" />
@@ -258,38 +274,6 @@
      <Compile Include="Assets\GO Map - 3D Map For AR Gaming\GOShared\Shared Core\GOMeshExtrusion.cs" />
      <Compile Include="Assets\GO Map - 3D Map For AR Gaming\GOShared\Shared Core\MeshJob.cs" />
      <Compile Include="Assets\GameData.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraMove.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraZoom.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCanvasArrow.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanDestroy.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerDown.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerHeld.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerLine.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerSet.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerSwipe.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerTap.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerTrail.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanFingerUp.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanOpenUrl.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanPath.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanPlane.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanRotate.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanRotateCustomAxis.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanScale.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanScreenDepth.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelect.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectable.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableBehaviour.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableGraphicColor.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableRendererColor.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSelectableSpriteRendererColor.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanSpawnAt.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanTouchEvents.cs" />
-     <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanTranslate.cs" />
-     <Compile Include="Assets\LeanTouch\Scripts\LeanFinger.cs" />
-     <Compile Include="Assets\LeanTouch\Scripts\LeanGesture.cs" />
-     <Compile Include="Assets\LeanTouch\Scripts\LeanSnapshot.cs" />
-     <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
      <Compile Include="Assets\Little Pack 1\Orbit Camera\Scripts\maxCamera.cs" />
      <Compile Include="Assets\OverGameManager.cs" />
      <Compile Include="Assets\OverlapAmount.cs" />
@@ -301,6 +285,7 @@
      <Compile Include="Assets\Resources\FlickBall\Scripits\ShotBall.cs" />
      <Compile Include="Assets\RhythmController.cs" />
      <Compile Include="Assets\Script\ARBallCtrl.cs" />
+     <Compile Include="Assets\Script\ARCatchAudio.cs" />
      <Compile Include="Assets\Script\ARInsPos.cs" />
      <Compile Include="Assets\Script\ARShootBall.cs" />
      <Compile Include="Assets\Script\ARUIManager.cs" />
@@ -314,12 +299,16 @@
      <Compile Include="Assets\Script\FindPets.cs" />
      <Compile Include="Assets\Script\InsPoint.cs" />
      <Compile Include="Assets\Script\Invisiblebutton.cs" />
+     <Compile Include="Assets\Script\MapAudio.cs" />
      <Compile Include="Assets\Script\MoveEffect.cs" />
      <Compile Include="Assets\Script\PetSave.cs" />
      <Compile Include="Assets\Script\PlayAni.cs" />
      <Compile Include="Assets\Script\PointEvent.cs" />
+     <Compile Include="Assets\Script\SaveAndLoad.cs" />
+     <Compile Include="Assets\Script\StartAudio.cs" />
      <Compile Include="Assets\Script\StartButton.cs" />
      <Compile Include="Assets\Script\StaticData.cs" />
+     <Compile Include="Assets\Script\StoreAudio.cs" />
      <Compile Include="Assets\Script\StoreInsPet.cs" />
      <Compile Include="Assets\Script\StoreUIManager.cs" />
      <Compile Include="Assets\Script\UIManager_02.cs" />
@@ -361,18 +350,19 @@
      <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
      <None Include="Assets\Packages\Avatar_01\Shaders\toon_cutoff.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\Little Pack 1\Shaders\Toony-Basic.shader" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\GOShared\Helpers\Poly2Mesh\Poly2Tri\LICENSE.txt" />
-     <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ClassTypeTemplate.txt" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\Easy Save 2\changelog.txt" />
      <None Include="Assets\readme_SDK.txt" />
-     <None Include="Assets\LeanTouch\Examples\Shaders\Skybox.shader" />
-     <None Include="Assets\LeanTouch\Examples\Shaders\Smooth.shader" />
+     <None Include="Assets\Plugins\Easy Save 3\link.xml" />
+     <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ComponentTypeTemplate.txt" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
      <None Include="Assets\Little Pack 1\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Easy Save 2\readme.txt" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Marauder&apos;s Map\POIs\Stops\TransparentShadows.shader" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Shaders\UnlitSingleColor.shader" />
@@ -380,15 +370,19 @@
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Marauder&apos;s Map\POIs\Gyms\Resources\FakeVolumetricLightShader.shader" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Core\Materials &amp; Shaders\GradientShader.shader" />
+     <None Include="Assets\Plugins\Easy Save 3\Editor\ES3Type_MaterialTemplate.txt" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Shaders\InsideShader.shader" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Core\Materials &amp; Shaders\LowPoly Procedural Skybox.shader" />
+     <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ValueTypeTemplate.txt" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\GOShared\Helpers\Poly2Mesh\Poly2Tri\AUTHORS.txt" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Shaders\TransparentShader.shader" />
+     <None Include="Assets\link.xml" />
      <None Include="Assets\Packages\Avatar_01\Shaders\toon_hair.shader" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Projectors\ProjectorAdditive.shader" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Core\Materials &amp; Shaders\LowPolyMobile3.2.shader" />
+     <None Include="Assets\Plugins\Easy Save 3\Editor\ES3TypeTemplate.txt" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\GOShared\Shaders\GOOneSidedText.shader" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Marauder&apos;s Map\POIs\Gyms\Resources\classicNoise3d.cginc" />
      <None Include="Assets\GO Map - 3D Map For AR Gaming\Demo\Projectors\ProjectorSolid.shader" />
@@ -418,6 +412,10 @@
  <Reference Include="Vuforia.UnityExtensions">
  <HintPath>/Users/wongkaching/Documents/GitHub/ARProject/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{BCBA1454-4D4E-9456-79F8-CD5CB8546081}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

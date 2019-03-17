@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FindPets : MonoBehaviour {
 
@@ -8,7 +9,12 @@ public class FindPets : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		transform.LookAt(GameObject.FindGameObjectWithTag("Avatar").transform);
+		Scene _scene = SceneManager.GetActiveScene ();
+		string _sceneName = _scene.ToString ();
+//		print (_sceneName);
+		if (_sceneName != "StoreScene") {
+			transform.LookAt (GameObject.FindGameObjectWithTag ("Avatar").transform);
+		}
 	}
 	
 	// Update is called once per frame
@@ -30,10 +36,10 @@ public class FindPets : MonoBehaviour {
 			StartCoroutine (ShowCatchPancl());
 		}
 	}
-
-//	延迟2s出现面板
+		
+//	延迟2.5s出现面板
 	IEnumerator ShowCatchPancl() {
-		yield return new WaitForSeconds (2);
+		yield return new WaitForSeconds (2.5f);
 		ARUIManager.Instance.ShowCatchPancl ();
 		Destroy (transform.gameObject);
 	}

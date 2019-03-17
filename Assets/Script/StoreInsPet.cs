@@ -40,6 +40,9 @@ public class StoreInsPet : MonoBehaviour {
 				string _petName = _petInfo.PetName;
 
 				StoreUIManager.Instance.UpdatePetName (i, _petName);
+
+				string _petType = StaticData.GetPetType (_petInfo.PetIndex);
+				StoreUIManager.Instance.UpdatePetType (i, _petType);
 			}
 		}
 	}

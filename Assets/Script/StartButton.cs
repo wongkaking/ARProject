@@ -16,6 +16,8 @@ public class StartButton : MonoBehaviour {
 	}
 
 	void OnClickStart() {
+		StartAudio.Instance.ButtonAudio ();
+		SaveAndLoad.Load ();
 		Globe.nextSceneName = targetSceneName;
 		SceneManager.LoadScene (LoadSceneName);
 //		SceneManager.LoadScene ("ARScene");
