@@ -22,14 +22,21 @@ public class FindPets : MonoBehaviour {
 		
 	}
 
-	void OnTriggerEnter(Collider other){
+	void OnTriggerEnter(Collider other) {
 		if (other.tag == "Avatar") {
-			UIManager_02.Instance.SetIm_Catch (true);
+			if (StaticData.BallNum > 0 && StaticData.FoodNum > 0) {
+				UIManager_02.Instance.SetIm_Catch (true);
 
-			StaticData.CatchPetIndex = PetIndex;
-
+				StaticData.CatchPetIndex = PetIndex;
+				Destroy (gameObject);
+			} else if (StaticData.BallNum == 0 || StaticData.FoodNum == 0) {
+				UIManager_02.Instance.SetNoBall (true);
+				Destroy (gameObject);
+			}
+				
 //			销毁
-			Destroy (gameObject);
+//			Destroy (gameObject);
+//			UIManager_02.Instance.SetNoBall (false);
 		}
 		if (other.tag == "Ball") {
 			petCatchAni ();

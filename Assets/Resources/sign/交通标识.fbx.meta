@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 491b48f5044774a06a8efcfe4d2d56d1
+timeCreated: 1554130933
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: road_sign
+    100002: road_sign1
+    100004: road_sign10
+    100006: road_sign11
+    100008: road_sign12
+    100010: road_sign13
+    100012: road_sign14
+    100014: road_sign15
+    100016: road_sign16
+    100018: road_sign17
+    100020: road_sign18
+    100022: road_sign19
+    100024: road_sign2
+    100026: road_sign20
+    100028: road_sign21
+    100030: road_sign22
+    100032: road_sign23
+    100034: road_sign3
+    100036: road_sign4
+    100038: road_sign5
+    100040: road_sign6
+    100042: road_sign7
+    100044: road_sign8
+    100046: road_sign9
+    100048: //RootNode
+    400000: road_sign
+    400002: road_sign1
+    400004: road_sign10
+    400006: road_sign11
+    400008: road_sign12
+    400010: road_sign13
+    400012: road_sign14
+    400014: road_sign15
+    400016: road_sign16
+    400018: road_sign17
+    400020: road_sign18
+    400022: road_sign19
+    400024: road_sign2
+    400026: road_sign20
+    400028: road_sign21
+    400030: road_sign22
+    400032: road_sign23
+    400034: road_sign3
+    400036: road_sign4
+    400038: road_sign5
+    400040: road_sign6
+    400042: road_sign7
+    400044: road_sign8
+    400046: road_sign9
+    400048: //RootNode
+    2300000: road_sign
+    2300002: road_sign1
+    2300004: road_sign10
+    2300006: road_sign11
+    2300008: road_sign12
+    2300010: road_sign13
+    2300012: road_sign14
+    2300014: road_sign15
+    2300016: road_sign16
+    2300018: road_sign17
+    2300020: road_sign18
+    2300022: road_sign19
+    2300024: road_sign2
+    2300026: road_sign20
+    2300028: road_sign21
+    2300030: road_sign22
+    2300032: road_sign23
+    2300034: road_sign3
+    2300036: road_sign4
+    2300038: road_sign5
+    2300040: road_sign6
+    2300042: road_sign7
+    2300044: road_sign8
+    2300046: road_sign9
+    3300000: road_sign
+    3300002: road_sign1
+    3300004: road_sign10
+    3300006: road_sign11
+    3300008: road_sign12
+    3300010: road_sign13
+    3300012: road_sign14
+    3300014: road_sign15
+    3300016: road_sign16
+    3300018: road_sign17
+    3300020: road_sign18
+    3300022: road_sign19
+    3300024: road_sign2
+    3300026: road_sign20
+    3300028: road_sign21
+    3300030: road_sign22
+    3300032: road_sign23
+    3300034: road_sign3
+    3300036: road_sign4
+    3300038: road_sign5
+    3300040: road_sign6
+    3300042: road_sign7
+    3300044: road_sign8
+    3300046: road_sign9
+    4300000: road_sign
+    4300002: road_sign1
+    4300004: road_sign2
+    4300006: road_sign3
+    4300008: road_sign4
+    4300010: road_sign5
+    4300012: road_sign6
+    4300014: road_sign7
+    4300016: road_sign8
+    4300018: road_sign9
+    4300020: road_sign10
+    4300022: road_sign11
+    4300024: road_sign12
+    4300026: road_sign13
+    4300028: road_sign14
+    4300030: road_sign15
+    4300032: road_sign16
+    4300034: road_sign17
+    4300036: road_sign18
+    4300038: road_sign19
+    4300040: road_sign20
+    4300042: road_sign21
+    4300044: road_sign22
+    4300046: road_sign23
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

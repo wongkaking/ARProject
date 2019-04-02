@@ -19,7 +19,7 @@ public class FindFood : MonoBehaviour {
 		if (other.tag == "Avatar") {
 			//调用UI管理其中的函数增加小球显示的数量
 			UIManager_02.Instance.AddFoodNum();
-			Debug.Log ("Food OnTriggerEnter");
+//			Debug.Log ("Food OnTriggerEnter");
 //			销毁
 			Destroy (gameObject);
 		}	

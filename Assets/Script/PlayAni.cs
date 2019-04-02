@@ -5,11 +5,15 @@ using UnityEngine;
 public class PlayAni : MonoBehaviour {
 
     Animator myAni;
+
 	//Is the first time enter the game or not
-   static bool isFirst = false;
-   static int i = 0;
+   private static bool isFirst = false;
+   private static int i = 0;
+
 	void Start () {
+		
         myAni = GetComponent<Animator>();
+
         if (!isFirst)
         {
             if (this.name == "TitleImage")
@@ -24,9 +28,7 @@ public class PlayAni : MonoBehaviour {
 	}
 	
 	void Update () {
-
         if (i > 3)
             isFirst = true;
- 
 	}
 }

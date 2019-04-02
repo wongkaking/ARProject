@@ -12,8 +12,11 @@ public class ARUIManager : MonoBehaviour {
 	public Text Tx_FoodNum;
 
 	public GameObject PanclCatched;
+	public GameObject NoBall;
 
 	public Text InputPetName;
+
+	private bool isCatched = false;
 
 	void Awake() {
 		Instance = this;
@@ -26,7 +29,9 @@ public class ARUIManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (StaticData.BallNum == 0 && isCatched == false) {
+			ShowNoBall ();
+		}
 	}
 
 	public void GoMapScene() {
@@ -44,6 +49,12 @@ public class ARUIManager : MonoBehaviour {
 
 	public void ShowCatchPancl() {
 		PanclCatched.SetActive (true);
+		isCatched = true;
+	}
+
+	public void ShowNoBall() {
+		NoBall.SetActive (true);
+//		UIManager_02.Instance.ShowNoBallOrFood (false);
 	}
 
 //	提交名字
@@ -57,6 +68,11 @@ public class ARUIManager : MonoBehaviour {
 	} 
 		
 	public void Cancel() {
+		ARCatchAudio.Instance.ButtonAudio ();
+		SceneManager.LoadScene ("MapScene");
+	}
+
+	public void OnClickOk() {
 		ARCatchAudio.Instance.ButtonAudio ();
 		SceneManager.LoadScene ("MapScene");
 	}

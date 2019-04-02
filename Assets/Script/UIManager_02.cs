@@ -11,6 +11,7 @@ public class UIManager_02 : MonoBehaviour {
 	public Text Tx_Food;
 
 	public GameObject Im_Catch;
+	public GameObject NoBall;
 
 	private Int32 ballNumber;
 	private Int32 foodNumber;
@@ -41,7 +42,7 @@ public class UIManager_02 : MonoBehaviour {
 //		ballNumber++;
 		StaticData.BallNum++;
 		Tx_Ball.text = StaticData.BallNum.ToString ();
-		Debug.Log (Tx_Ball.text);
+//		Debug.Log (Tx_Ball.text);
 	}
 
 //	增加食物
@@ -57,15 +58,23 @@ public class UIManager_02 : MonoBehaviour {
 		Im_Catch.SetActive (isActive);
 	}
 
+	public void SetNoBall(bool isActive) {
+		NoBall.SetActive (isActive);
+	}
+
 	public void GoARCatch() {
 		MapAudio.Instance.ButtonAudio ();
-		StaticData.FoodNum--;
 		SceneManager.LoadScene ("ARCatch");
 	}
 
 	public void GoStore() {
 		MapAudio.Instance.ButtonAudio ();
 		SceneManager.LoadScene ("StoreScene");
+	}
+
+	public void GoBack() {
+		MapAudio.Instance.ButtonAudio ();
+		SceneManager.LoadScene ("StartScene");
 	}
 
 	public void UpdateUIFoodNum() {

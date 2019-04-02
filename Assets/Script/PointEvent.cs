@@ -9,7 +9,7 @@ public class PointEvent : MonoBehaviour {
 
 	public GameObject[] Balls;
 	public GameObject[] Foods;
-	public GameObject Pet;
+//	public GameObject Pet;
 
 	private void Awake() 
 	{
