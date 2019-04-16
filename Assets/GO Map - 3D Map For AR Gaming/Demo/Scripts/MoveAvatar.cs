@@ -107,7 +107,7 @@ public class MoveAvatar : MonoBehaviour {
 
 			AvatarAnimationState state = AvatarAnimationState.Idle; 
 
-			if (dist > 4)
+			if (dist > 6)
 				state = AvatarAnimationState.Run;
 			else state = AvatarAnimationState.Walk;
 

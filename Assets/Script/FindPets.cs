@@ -39,6 +39,7 @@ public class FindPets : MonoBehaviour {
 //			UIManager_02.Instance.SetNoBall (false);
 		}
 		if (other.tag == "Ball") {
+			ARUIManager.Instance.isCatched = true;
 			petCatchAni ();
 			StartCoroutine (ShowCatchPancl());
 		}

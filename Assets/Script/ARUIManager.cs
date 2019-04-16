@@ -16,7 +16,7 @@ public class ARUIManager : MonoBehaviour {
 
 	public Text InputPetName;
 
-	private bool isCatched = false;
+ 	public bool isCatched = false;
 
 	void Awake() {
 		Instance = this;
@@ -29,8 +29,10 @@ public class ARUIManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (StaticData.BallNum == 0 && isCatched == false) {
-			ShowNoBall ();
+		if (isCatched == false) {
+			if (StaticData.BallNum == 0) {
+				ShowNoBall ();
+			} 
 		}
 	}
 
@@ -52,7 +54,8 @@ public class ARUIManager : MonoBehaviour {
 		isCatched = true;
 	}
 
-	public void ShowNoBall() {
+	IEnumerable ShowNoBall() {
+		yield return new WaitForSeconds (3f);
 		NoBall.SetActive (true);
 //		UIManager_02.Instance.ShowNoBallOrFood (false);
 	}

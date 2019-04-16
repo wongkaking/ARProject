@@ -1,12 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Test.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/FindSecond.cs">
     <Files>
-      <File FileName="Assets/Script/Test.cs" Line="37" Column="34" />
-      <File FileName="Assets/Script/SaveAndLoad.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/StartButton.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/FindCube.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/SchoolLocation.cs" Line="12" Column="25" />
+      <File FileName="Assets/Script/SecondLocation.cs" Line="15" Column="36" />
+      <File FileName="Assets/Script/FindFirst.cs" Line="17" Column="2" />
       <File FileName="Assets/Script/PointEvent.cs" Line="56" Column="117" />
+      <File FileName="Assets/Script/ARShootBall.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/FindPets.cs" Line="25" Column="21" />
+      <File FileName="Assets/Script/GetLocation.cs" Line="26" Column="25" />
+      <File FileName="Assets/Script/FindBall.cs" Line="20" Column="20" />
+      <File FileName="Assets/Script/FindSecond.cs" Line="20" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
